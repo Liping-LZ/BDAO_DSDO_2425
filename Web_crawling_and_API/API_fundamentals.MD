@@ -5,7 +5,7 @@ https://user-images.githubusercontent.com/48418248/206932791-884abc1d-86f6-4b79-
 
 The metaphor here (of the waiter in a restaurant) is a useful one I think for the uninitiated. Ultimately APIs are machine-to-machine middlemen that allow one application or service to speak to another. Often in user-focused settings, again as in the video, this is an application/service querying or writing to an external datastore. This can be someone else's datastore (who understandably probably won't want to give you direct database access), but also could be within a single company ... i.e. different apps/services updating each other (a key component in the cloud native world).
 
-Many (most?) APIs are built using [RESTful](https://restfulapi.net/) protocols. REST (standing for REpresentional State Transfer) is a set of guidelines to standardise communications between these applications/services. Although we don't need to go through everything here its worth touching on some fundamentals. Some initial terminology of the key elements of an API interaction:
+Many (most?) APIs are built using [RESTful](https://restfulapi.net/) protocols. REST (standing for Representional State Transfer) is a set of guidelines to standardise communications between these applications/services. Although we don't need to go through everything here its worth touching on some fundamentals. Some initial terminology of the key elements of an API interaction:
 
 - __The client__: The program that is connecting to the API. This is the app/service that is requesting information or requesting information be added.
 - __The request__: What __the client__ is requesting from the API.   
